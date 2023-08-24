@@ -22,7 +22,6 @@ int partition(int arr[], int low, int high)
 			swap(arr[i], arr[j]);
 		}
 	}
-
 	swap(arr[i + 1], arr[high]);
 	return i + 1;
 }
@@ -47,7 +46,6 @@ int main() {
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 	quickSort(arr, 0, n-1);
-
 	std::cout << "排序后的数组：";
 	for (int i = 0; i < n; i++) {
 		std::cout << arr[i] << " ";
