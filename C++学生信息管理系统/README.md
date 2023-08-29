@@ -1,4 +1,4 @@
-##Student-management-system
+#Student-management-system
 
 一、需求分析
 1、某学校有本科生和研究生两类学生。
