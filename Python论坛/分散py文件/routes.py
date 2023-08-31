@@ -52,6 +52,13 @@ def logout():
     logout_user()
     return redirect('/')
 
+@routes.route('/user_profile')
+@login_required
+def user_profile():
+    user_posts = Post.query.filter_by(user_id=current_user.id).order_by(Post.timestamp.desc()).all()
+    return render_template('user_profile.html', user=current_user, posts=user_posts)
+
+
 @routes.route('/new_post', methods=['GET', 'POST'])
 @login_required
 def new_post():
