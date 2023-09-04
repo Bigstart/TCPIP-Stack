@@ -3,6 +3,7 @@
 //刻意根据特定的条件或参数创建不同类型的对象，无需在客户端代码中直接实例化具体的类
 #include <iostream>
 
+
 //操作接口
 class Operation
 {
