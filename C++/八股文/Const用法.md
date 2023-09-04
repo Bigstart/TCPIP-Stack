@@ -4,7 +4,6 @@
 
 可以使用const\_cast来修改const修饰的变量
 
-
 const int a = 10;
 int* p=const_cast<int*>(&a); //将\&a的类型转换成int\*，然后赋值给p
 *p = 20;
