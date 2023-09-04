@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 
+
 void merge(std::vector<int>& arr, int left, int middle, int right) //三个参数来确定要合并的子数组的范围
 {
 	//left 是左子数组的起始索引
