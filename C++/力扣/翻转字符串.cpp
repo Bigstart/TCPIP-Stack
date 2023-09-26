@@ -1,3 +1,5 @@
+//单指针 并且开辟了内存空间
+
 #include <iostream>
 #include <string>
 #include <vector>
